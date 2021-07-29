@@ -22,12 +22,40 @@
                         <p class="card-text fs-3">Computer-controlled digital
                             transistorized</p>
                         <p class="card-text fs-3"> with electronic advance</p>
-                        <h1 class="card-title fs-1">Honda-CBR-300R</h2>
+                        <h1 class="card-title fs-1 fw-bolder">Honda-CBR-300R</h2>
                             <p class="card-text fs-3">Amet minim mollit non deserunt ullamco est sit aliqua
                                 dolor do amet sint. Velit officia consequat duis enim velit
                                 mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
-                    <button class="bg-warning text-success fs-3 row-cols-4" type="Purchase">Purchase</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Read-More
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Honda title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">accept</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <img src="honda-cbr-main/images/header-bike.png" class="img-fluid rounded-end" alt="...">
@@ -39,9 +67,9 @@
     <!-- Fetured Bikes 2021 -->
     <main>
         <section>
-            <h1 class="text-center">Fetured Bikes 2021</h1>
-            <p class="text-center text-warning"><small> bike collection</small></p>
-            <div class="row row-cols-1 row-cols-md-3 g-4 p-4">
+            <h1 class="text-center fw-bolder pt-lg-5">Fetured Bikes 2021</h1>
+            <p class="text-center text-danger  fs-6 pb-lg-5">Best bike collection</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4 px-lg-5">
                 <div class="col">
                     <div class=" h-50">
                         <img src="honda-cbr-main/images/feature-bike.jpg" class="card-img-top" alt="...">
@@ -65,11 +93,16 @@
 
         <!-- Happy Clients says -->
         <section>
-            <h1 class="text-center text-info py-lg-5">Happy Clients says</h1>
+            <div class="d-flex justify-content-center py-lg-5">
+                <h1 class="text-center fw-bolder">Happy</h1>
+                <h1 class="text-center text-danger p-lg-1 fw-bolder"> Clients says</h1>
+            </div>
+
             <div class="row row-cols-1 row-cols-md-3 g-4 px-lg-5">
                 <div class="col">
                     <div class="card h-100 ">
-                        <img src="honda-cbr-main/images/user-1.png" class="card-img-top  w-50 h-50 px-lg-5" alt="...">
+                        <img src="honda-cbr-main/images/user-1.png" class="card-img-top  w-50 h-50 px-lg-5 pt-lg-2 "
+                            alt="...">
                         <div class="card-body px-lg-5">
 
                             <p class="card-text">Slate helps you see how
@@ -95,7 +128,8 @@
                 </div>
                 <div class="col ">
                     <div class="card h-100">
-                        <img src="honda-cbr-main/images/user-2.png" class="card-img-top  w-50 h-50 px-lg-5" alt="...">
+                        <img src="honda-cbr-main/images/user-2.png" class="card-img-top  w-50 h-50 px-lg-5 pt-lg-2"
+                            alt="...">
                         <div class="card-body px-lg-5">
 
                             <p class="card-text">TSlate helps you see how
@@ -120,9 +154,9 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="honda-cbr-main/images/circle-cropped (1).png" class="card-img-top  w-50 h-50 px-lg-5"
-                            alt="...">
-                        <div class="card-body">
+                        <img src="honda-cbr-main/images/circle-cropped (1).png"
+                            class="card-img-top  w-50 h-50 px-lg-5 pt-lg-2" alt="...">
+                        <div class="card-body px-lg-5">
 
                             <p class="card-text">Slate helps you see how
 
@@ -143,9 +177,10 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
+
+        <!-- FAQ -->
         <section>
             <div class="d-sm-flex px-lg-5 py-lg-5">
                 <div class=" mb-5  d-flex bg-light rounded-3 shadow-lg m-3">
@@ -208,18 +243,13 @@
                             <button class="btn btn-light" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#multiCollapseExample4" aria-expanded="false"
                                 aria-controls="multiCollapseExample4">How can I tell if my helmet is old and I need a
-
                                 new one?
                                 <div class="">
-
                                     <i class="fas fa-chevron-down"></i>
                                 </div>
                             </button>
-
-
                             <div class="col">
                                 <div class="collapse multi-collapse" id="multiCollapseExample4">
-
                                     Some placeholder content for the second collapse component of this multi-collapse
                                     example. This panel is hidden by default but revealed when the user activates the
                                     relevant trigger.
@@ -229,49 +259,7 @@
                     </div>
                 </div>
             </div>
-
             </div>
-        </section>
-
-        <!-- model -->
-        <section class="p-4">
-            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
-                tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            Hi! Welcome. see this second model.
-                        </div>
-                        <div class="modal-footer">
-                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
-                                data-bs-dismiss="modal">Open Honda Next</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
-                aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            Honda-CBR-300R
-                        </div>
-                        <div class="modal-footer">
-                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"
-                                data-bs-dismiss="modal">Back to first</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open Honda</a>
         </section>
     </main>
     <footer class="text-center">
